@@ -1,0 +1,28 @@
+{
+  "name": "TABRO",
+  "version": "1.0",
+  "description": "Learns your browsing patterns to give a more structured grouping of tabs.",
+  "permissions": [
+    "experimental", 
+	"tabs",
+	"http://ajax.googleapis.com/", 
+	"chrome://favicon/*", 
+	"http://*/*", 
+	"https://*/*" ,
+	"storage"
+	],
+  "browser_action": {
+      "default_title": "Group by tabs",
+      "default_icon": {
+         "19": "icon.png",
+         "38": "icon.png"
+      },
+      "default_popup": "popup.html"
+  },
+  "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+  "manifest_version": 2
+}
